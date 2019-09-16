@@ -137,6 +137,7 @@ This is an example of `inline code`
 \```
 Blocks are marked with with triple backticks
 \```
+```
 
 ## Headers
 
@@ -201,6 +202,11 @@ Not implemented
 1.   Fourth item
 ```
 
+1.   First item
+1.   Second item
+1.   Third item
+1.   Fourth item
+
 ### Riot
 
 ```
@@ -238,6 +244,11 @@ Not implemented
 -   Tiem
 -   Meti
 ```
+
+-   Item
+-   Item
+-   Tiem
+-   Meti
 
 ### Riot
 
