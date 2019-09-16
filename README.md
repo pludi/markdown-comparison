@@ -9,6 +9,121 @@ Currently:
 -   Riot
 -   [Slack](https://get.slack.help/hc/en-us/articles/202288908-Format-your-messages)
 
+## Simple formatting
+
+###  Vanilla Markdown
+
+```
+*emphasis*
+**strong**
+***strong emphasis***
+```
+
+### GitHub
+
+```
+*emphasis*
+**strong**
+***strong emphasis***
+
+_emphasis_
+__strong__
+___mixed__ bag_
+```
+
+### Riot
+
+```
+*emphasis*
+**strong**
+***strong emphasis***
+```
+
+### Slack
+
+```
+_emphasis_
+*strong*
+~strikethrough~
+```
+
+## Blockquotes
+
+### Vanilla Markdown
+
+```
+> This be a quote
+```
+
+### GitHub
+
+```
+> This be a quote
+```
+
+### Riot
+
+```
+> This be a quote
+```
+
+### Slack
+
+```
+> This be a quote
+```
+
+## Code / Preformatted text
+
+### Vanilla Markdown
+
+```
+This is an example of `inline code`
+
+    Four spaces denote a code block
+    No syntax highlighting
+```
+
+### GitHub
+
+```
+This is an example of `inline code`
+
+    Four spaces denote a code block
+
+\```
+Alternatively you can surround the code block with triple backticks
+\```
+
+\```c
+#include <stdio.h>
+
+int main ()
+{
+  printf("Also supports syntax highlighting!\n");
+  return 0;
+}
+\```
+```
+
+### Riot
+
+```
+This is an example of `inline code`
+
+    Four spaces denote a code block
+    No syntax highlighting
+```
+
+### Slack
+
+```
+This is an example of `inline code`
+
+\```
+Blocks are marked with with triple backticks
+\```
+
 ## Headers
 
 ### Vanilla Markdown
