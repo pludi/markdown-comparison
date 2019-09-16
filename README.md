@@ -14,37 +14,31 @@ Currently:
 ###  Vanilla Markdown
 
 ```
-*emphasis*
-**strong**
-***strong emphasis***
+*emphasis* **strong** ***strong emphasis***
 ```
 
 ### GitHub
 
 ```
-*emphasis*
-**strong**
-***strong emphasis***
+*emphasis* **strong** ***strong emphasis***
 
-_emphasis_
-__strong__
-___mixed__ bag_
+_emphasis_ __strong__ ___mixed__ bag_
 ```
+
+*emphasis* **strong** ***strong emphasis***
+
+_emphasis_ __strong__ ___mixed__ bag_
 
 ### Riot
 
 ```
-*emphasis*
-**strong**
-***strong emphasis***
+*emphasis* **strong** ***strong emphasis***
 ```
 
 ### Slack
 
 ```
-_emphasis_
-*strong*
-~strikethrough~
+_emphasis_ *strong* ~strikethrough~
 ```
 
 ## Blockquotes
@@ -60,6 +54,8 @@ _emphasis_
 ```
 > This be a quote
 ```
+
+> This be a quote
 
 ### Riot
 
@@ -104,6 +100,24 @@ int main ()
   return 0;
 }
 \```
+```
+
+This is an example of `inline code`
+
+    Four spaces denote a code block
+
+```
+Alternatively you can surround the code block with triple backticks
+```
+
+```c
+#include <stdio.h>
+
+int main ()
+{
+  printf("Also supports syntax highlighting!\n");
+  return 0;
+}
 ```
 
 ### Riot
