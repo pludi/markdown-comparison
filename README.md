@@ -82,16 +82,16 @@ This is an example of `inline code`
 
 ### GitHub
 
-```
+````
 This is an example of `inline code`
 
     Four spaces denote a code block
 
-\```
+```
 Alternatively you can surround the code block with triple backticks
-\```
+```
 
-\```c
+```c
 #include <stdio.h>
 
 int main ()
@@ -99,8 +99,8 @@ int main ()
   printf("Also supports syntax highlighting!\n");
   return 0;
 }
-\```
 ```
+````
 
 This is an example of `inline code`
 
@@ -131,13 +131,13 @@ This is an example of `inline code`
 
 ### Slack
 
-```
+````
 This is an example of `inline code`
 
-\```
-Blocks are marked with with triple backticks
-\```
 ```
+Blocks are marked with with triple backticks
+```
+````
 
 ## Headers
 
