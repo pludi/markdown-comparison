@@ -122,12 +122,22 @@ int main ()
 
 ### Riot
 
-```
+````
 This is an example of `inline code`
 
     Four spaces denote a code block
-    No syntax highlighting
+    
 ```
+Alternatively you can surround the code block with triple backticks
+```
+
+```rust
+fn main() {
+    println!("It supports syntax highlighting, too!");
+    // However it only highlights the code in Riot-Web.
+}
+```
+````
 
 ### Slack
 
